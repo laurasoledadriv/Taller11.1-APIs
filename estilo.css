@@ -1,0 +1,58 @@
+.aburrideishon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+img{
+    width: 300px;
+  height: 300px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.jaula{
+    border-radius: 2rem;
+    border-color: black;
+    border-style:groove;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    align-items: center;
+}
+
+.jaulaimg{
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;
+}
+.btngroup{
+    flex-direction: row;
+}
+              
+.btn{
+    margin-top: 10px;
+    text-align: center;
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.btn:hover{
+    transform: translate3d(12px, 30%, 3em);
+        -webkit-transform: translate3d(12px, 30%, 3em);
+        -moz-transform: translate3d(12px, 30%, 3em);
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+}
+body{
+    background-color: aqua;
+}    
+
+#actividad,.jaulaimg{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#segunda{
+    padding-bottom: 10px;
+}
