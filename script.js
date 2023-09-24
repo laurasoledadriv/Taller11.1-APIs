@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
-    const api1="http://www.boredapi.com/api/activity/"; //constante para guardar la bored api
+    const api1="https://www.boredapi.com/api/activity/"; //constante para guardar la bored api
     let btnSugerencia= document.getElementById("sugerencia");
     let divSugerencia= document.getElementById("container2");
     //Creo una función para dejar vacío el div donde va la actividad
